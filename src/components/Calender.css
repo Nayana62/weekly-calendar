@@ -1,0 +1,32 @@
+.calendar-container {
+  width: 95%;
+  margin: auto;
+  padding: 30px 10px;
+}
+
+.fc-toolbar-chunk {
+  display: flex;
+}
+
+.add-Btn {
+  position: absolute;
+  left: 82rem;
+  top: 11rem;
+  display: flex;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 13px 33px;
+  background: #5364ff;
+  border-radius: 100px;
+}
+
+.btn {
+  color: inherit;
+  border: none;
+  background: #5364ff;
+}
+
+.fc-event-title,
+.fc-event-time {
+  color: gray;
+}

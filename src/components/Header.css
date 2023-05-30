@@ -1,0 +1,87 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+}
+
+.section {
+  display: flex;
+  font-size: 16px;
+}
+
+.header-section1 {
+  flex: 0.3;
+  justify-content: flex-start;
+  margin-top: -10px;
+}
+
+.header-section1 > img {
+  height: 5px;
+  width: 6px;
+  margin-top: 27px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+.header-section1 > div > span {
+  font-size: 10px;
+  color: #aaaaaa;
+  margin-top: -20px;
+}
+
+.header-section1 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-section2 {
+  flex: 0.4;
+  justify-content: space-evenly;
+}
+
+.header-section2 p {
+  cursor: pointer;
+}
+
+.header-section2 > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-section2 > div > img {
+  width: 14.63px;
+  height: 14.63px;
+}
+
+.header-section2 > div:first-child {
+  border-bottom: 2px solid #5364ff;
+}
+
+.header-section3 {
+  flex: 0.3;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-section3 > .img1 {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.header-section3 > .img2 {
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+}
+
+.header-section3 > .img3 {
+  width: 6px;
+  height: 5px;
+  cursor: pointer;
+}

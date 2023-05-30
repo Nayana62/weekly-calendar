@@ -1,0 +1,162 @@
+input[type="time"]::-webkit-inner-spin-button,
+  input[type="time"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-content {
+  width: 30%;
+  background-color: white;
+  padding: 0 20px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.modal-header > h2 {
+  font-size: 20px;
+}
+
+.modal-header span{
+  cursor: pointer;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 10px;
+}
+
+.modal-body{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal label{
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.input-container input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #AAAAAA;
+  color: #AAAAAA;
+  flex: 1;
+  outline: none;
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+}
+
+.container .input-container{
+  flex: 1;
+}
+
+.repeatOnDays{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.repeatOnDays div{
+  display: flex;
+  gap: 10px;
+}
+
+.repeatOnDays button{
+  font-size: 16px;
+  border: 0;
+  padding: 8px;
+  background: #DCDCDC;
+  border-radius: 100px;
+  width: 38px;
+  height: 37px;
+  cursor: pointer;
+}
+
+.modal-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors{
+  display: flex;
+  gap: 10px;
+}
+
+.color{
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+}
+
+.colors p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red{
+  background-color: #F8EBF1;
+  color: #D16D9A !important;
+}
+.blue{
+  background-color: #E9E8FD;
+  color: #938BE6 !important;
+}
+.yellow{
+  background-color: #FFFBDA;
+  color: #E7C546 !important;
+}
+.green{
+  background-color: #CFFFF1;
+  color: #02B683 !important; 
+}
+
+.add-btn{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 13px 33px;
+  background: #5364ff;
+  border-radius: 100px;
+}
+
+.button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.delete-btn{
+  width: 15px;
+  height: 15px;
+}
