@@ -1,4 +1,6 @@
+
 .calendar-container {
+  position: relative;
   width: 95%;
   margin: auto;
   padding: 30px 10px;
@@ -10,8 +12,10 @@
 
 .add-Btn {
   position: absolute;
-  left: 82rem;
-  top: 11rem;
+  left: 1250px;
+  top: 30px;
+  width: 95px;
+  height: 20px;
   display: flex;
   font-size: 16px;
   color: #ffffff;
@@ -29,4 +33,22 @@
 .fc-event-title,
 .fc-event-time {
   color: gray;
+}
+
+@media (max-width:1400px){
+  .add-Btn{
+    left: 1100px;
+  }
+}
+
+@media (max-width:1300px){
+  .add-Btn{
+    left: 1000px;
+  }
+}
+
+@media (max-width:1200px){
+  .add-Btn{
+    left: 900px;
+  }
 }
